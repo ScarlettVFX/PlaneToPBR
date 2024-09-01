@@ -57,4 +57,4 @@ This script wouldn't be possible without the excellent free tools provided by th
 - **Yizhong Liu** for [Grounded Segment Anything](https://huggingface.co/spaces/yizhangliu/Grounded-Segment-Anything) on Hugging Face
 - **Smart-Page.net** for the [Smart Normal](https://www.smart-page.net/smartnormal/) tool
 - **Photo-Kako** for their [Photo-Kako](https://www.photo-kako.com/en/hpf/) tool
-- **Pieter-Jan Hoedt (prs-eth)** for [Marigold](https://huggingface.co/spaces/prs-eth/marigold) on Hugging Face, a tool that generates accurate depth maps using AI
+- **Pieter-Jan Hoedt (prs-eth)** for [Marigold](https://huggingface.co/spaces/prs-eth/marigold) on Hugging Face
