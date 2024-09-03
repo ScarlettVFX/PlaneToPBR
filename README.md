@@ -14,7 +14,13 @@
 1. Download the `PlanetoPBR.py` script.
 2. Open Blender and navigate to `Edit` > `Preferences`.
 3. In the Preferences window, click on the `Add-ons` tab and select `Install...`.
+
+![Install Add-on](Screenshots/install.png)
+
 4. Navigate to the location where you downloaded the `PlanetoPBR.py` file, select it, and click `Install Add-on`.
+
+![Python Script](Screenshots/py.png)
+
 5. Ensure the add-on is enabled by checking the box next to its name.
 
 ## Usage
@@ -28,9 +34,17 @@
 
 ### Step 2: Generate Texture Maps
 - **Window Mask**: Use [Grounded Segment Anything](https://huggingface.co/spaces/yizhangliu/Grounded-Segment-Anything) to generate a black-and-white window mask. This AI tool allows you to segment and detect objects with custom prompts.
+
+![Window Mask](Screenshots/segment.png)
+
 - **Depth Map**: Generate a depth map using the [Marigold tool](https://huggingface.co/spaces/prs-eth/marigold) on Hugging Face. Adjust the ensemble size to 20 for maximum detail.
+
+![Depth Map](Screenshots/marigold.png)
+
 - **Normal Map**: Create a normal map using [Smart Normal](https://www.smart-page.net/smartnormal/). This free online tool converts your images into detailed normal maps.
 - **Roughness Map**: Generate a roughness map using [Photo-Kako](https://www.photo-kako.com/en/hpf/). Adjust depth settings to around 3 for optimal results.
+
+![Roughness Map](Screenshots/roughness.png)
 
 ### Step 3: Organize Your Files
 - Place all generated texture maps in a folder named “Textures.”
@@ -39,11 +53,19 @@
 ### Step 4: Import Image Plane in Blender
 1. With the add-on enabled, go to the 3D Viewport in Blender.
 2. Press `Shift+A` to add a new object and select `Image` > `Import Plane from Image`.
+
+![Import Plane from Image](Screenshots/import.png)
+
 3. Navigate to your “Textures” folder and select all the texture files.
+
+![Importing Textures](Screenshots/importtextures.png)
+
 4. The script will automatically apply the textures to your model.
 
 ### Step 5: Adjust Modifiers
 - Use the Modifiers Editor to fine-tune subdivisions and displacement scale as needed.
+
+![Modifiers Settings](Screenshots/modifiers.png)
 
 ## License
 
